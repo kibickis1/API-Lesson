@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body{
+	max-height: 100vh;
+	margin: 0;
+}
+
+.gallery_sub img {
+	height: 200px;
+	width: 200px;
+	cursor: pointer;
+	margin: 5px 5px 0 5px;
+}
+
+.gallery_sub {
+	max-width: 100%;
+	overflow-y: auto;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.gallery_sub h1, h6{
+	display: none;
+}
+
+.gallery_big img {
+	max-width: 100vh;
+	max-height: 100vh;
+}
+
+.gallery {
+	display: flex;
+}
+
+section {
+	margin: 0;
+	padding: 0;
+}
